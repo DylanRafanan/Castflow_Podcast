@@ -57,13 +57,6 @@ export default function LoginPage() {
           Access your production workspace and active sessions.
         </p>
 
-        {/* Demo Credentials Helper */}
-        <div className={styles.helperText}>
-          <strong>Demo account credentials:</strong><br />
-          Email: <code>editor@castflow.studio</code><br />
-          Password: <code>password123</code>
-        </div>
-
         {error && (
           <div className={styles.errorBanner}>
             <ShieldAlert size={16} style={{ display: "inline", marginRight: "8px", verticalAlign: "middle" }} />
